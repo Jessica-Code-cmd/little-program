@@ -1,31 +1,21 @@
 <template>
   <div>
     <i-grid i-class="no-border">
-    <i-grid-item i-class="no-border">
+    <i-grid-item @click="goType(grid)" v-for="grid in grids" :key="grid" i-class="no-border">
         <i-grid-icon>
-            <image src="/static/images/burger.png" />
+            <image :src="grid.image" />
         </i-grid-icon>
-        <i-grid-label>汉堡</i-grid-label>
-    </i-grid-item>
-    <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/images/chicken.png" />
-        </i-grid-icon>
-        <i-grid-label>炸鸡</i-grid-label>
-    </i-grid-item>
-    <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/images/drink.png" />
-        </i-grid-icon>
-        <i-grid-label>饮料</i-grid-label>
-    </i-grid-item>
-    <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/images/ice cream.png" />
-        </i-grid-icon>
-        <i-grid-label>甜品</i-grid-label>
+        <i-grid-label>{{grid.title}}</i-grid-label>
     </i-grid-item>
   </i-grid>
+  <i-panel :title="title_name">
+    <view style="padding: 15px;">
+    <i-card v-for="item in top" :key="item" i-class="split" :extra="item.name" :thumb="item.image">
+        <view slot="content">{{item.remark}}</view>
+        <view slot="footer">{{item.address}}</view>
+</i-card>
+    </view>
+</i-panel>
   </div>
 </template>
 
@@ -34,10 +24,26 @@
 export default {
   data () {
     return {
+      title_name:"热门",
+      grids:[
+        {title:"汉堡",image:"/static/images/burger.png"},
+        {title:"炸鸡",image:"/static/images/chicken.png"},
+        {title:"饮料",image:"/static/images/drink.png"},
+        {title:"甜品",image:"/static/images/ice cream.png"}
+      ],
+      top:[
+        {name:"店名1",address:"地址1",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍1"},
+        {name:"店名2",address:"地址2",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍2"},
+        {name:"店名3",address:"地址3",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍3"},
+        {name:"店名4",address:"地址4",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍4"}
+      ]
     }
   },
 
   methods: {
+    goType(type){
+      console.log(type)
+    }
   },
 
   created () {
