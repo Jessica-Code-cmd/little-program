@@ -38,23 +38,24 @@ export default {
       title_name:"热门",
       grids:[
         {title:"汉堡",image:"/static/images/burger.png"},
-        {title:"炸鸡",image:"/static/images/chicken.png"},
-        {title:"饮料",image:"/static/images/drink.png"},
-        {title:"甜品",image:"/static/images/ice cream.png"}
+        {title:"烤肉",image:"/static/images/BBQ.png"},
+        {title:"奶茶",image:"/static/images/milktea.png"},
+        {title:"火锅",image:"/static/images/hotpot.png"}
       ],
       top:[
-        {name:"店名1",address:"地址1",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍1"},
-        {name:"店名2",address:"地址2",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍2"},
-        {name:"店名3",address:"地址3",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍3"},
-        {name:"店名4",address:"地址4",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍4"}
+        {name:"Das Burger House德堡屋",address:"武昌区公正路铁建1818中心地下一楼",image:"/static/images/DasBurger.jpg",remark:"招牌德堡、比利时脆炸薯条"},
+        {name:"海底捞火锅",address:"武昌区徐东大街120号群星城4层SL4-6",image:"/static/images/hdl.jpg",remark:"整体服务很细致，女士周内提供美甲服务"},
+        {name:"酒拾烤肉",address:"武昌区友谊大道三角花园王家湾小区湖北大学地铁A口",image:"/static/images/bbq1.png",remark:"鱼丸外焦里嫩、酱油炒饭超香！"},
+        {name:"KOI",address:"武昌区中北路武汉中央文化区楚河汉街室内步行街3F层Q2-1号商铺",image:"/static/images/koi.jpg",remark:"伯爵奶茶中伯爵茶的清新与奶茶搭配的刚刚好！"}
       ],
       imgUrls:[
-          'http://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
-          'http://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',
-          'http://images.unsplash.com/photo-1551446591-142875a901a1?w=640'
+          "/static/images/tophotpot.jpg",
+          "/static/images/topmilktea.jpg",
+          "/static/images/topburger.jpg",
+          "/static/images/topbbq.jpg"
    ],
-      indicatorDots: false,
-      autoplay: false,
+      indicatorDots: true,
+      autoplay: true,
       interval: 5000,
       duration: 1000
     }

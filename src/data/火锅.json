@@ -1,0 +1,6 @@
+[
+    {"name":"海底捞火锅","address":"武昌区徐东大街120号群星城4层SL4-6","image":"/static/images/hdl.jpg","remark":"整体服务很细致，女士周内提供美甲服务。"},
+    {"name":"重庆刘一手火锅","address":"洪山区徐东大街31号新世界百货三层","image":"/static/images/lys.png","remark":"厨房是开放式的，看起来干净又整洁！"},
+    {"name":"蜀大侠火锅","address":"武昌区中北路楚河汉街地铁C出口玉丰国际大酒店旁","image":"/static/images/sdx.png","remark":"汉街网红店，超划算！"},
+    {"name":"袁老四火锅","address":"武昌区秦园路与友谊大道岔口佳馨花园","image":"/static/images/yls.jpg","remark":"味道很棒，辣的上火，好吃停不下来！"}
+  ]

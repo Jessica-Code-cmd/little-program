@@ -1,6 +1,6 @@
 [
-    {"name":"汉堡1","address":"地址1","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍1"},
-    {"name":"汉堡2","address":"地址2","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍2"},
-    {"name":"汉堡3","address":"地址3","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍3"},
-    {"name":"汉堡4","address":"地址4","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍4"}
+    {"name":"5路汉堡炸鸡","address":"江汉区前进五路69号","image":"/static/images/Fiveroad.jpg","remark":"招牌酱炸鸡、芝士熔岩牛肉汉堡、老薯条"},
+    {"name":"Das Burger House德堡屋","address":"武昌区公正路铁建1818中心地下一楼","image":"/static/images/DasBurger.jpg","remark":"招牌德堡、比利时脆炸薯条"},
+    {"name":"Shine Shar傲堡村","address":"武昌区中北路107-2号广厦*中北领寓1栋5层8室","image":"/static/images/ShineShark.jpg","remark":"安格斯牛肉堡、M9和牛堡"},
+    {"name":"肯德基","address":"全国连锁","image":"/static/images/KFC.png","remark":"香辣鸡腿堡、玉米棒、醇香土豆泥"}
 ]
