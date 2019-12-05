@@ -1,6 +1,6 @@
 [
-    {"name":"喜茶","address":"武昌区中北路武汉中央文化区楚河汉街室内步行街1楼","image":"/static/images/heytea.png","remark":"多肉葡萄果肉超多，味道很浓郁嗷。"},
-    {"name":"奈雪的茶","address":"武昌区公正路武汉汉街万达广场1层1032+1033号商铺","image":"/static/images/naixue.jpg","remark":"老佛爷宝藏茶散发着迷人的光泽~颜值超高！"},
-    {"name":"乐乐茶","address":"武昌区沙湖大道万达广场1F1004","image":"/static/images/leletea.jpg","remark":"上海知名的网红茶饮终于开到武汉啦！！包装袋也超好看的。"},
-    {"name":"KOI","address":"武昌区中北路武汉中央文化区楚河汉街室内步行街3F层Q2-1号商铺","image":"/static/images/koi.jpg","remark":"伯爵奶茶中伯爵茶的清新与奶茶搭配的刚刚好！"}
+    {"name":"喜茶","address":"武昌区中北路武汉中央文化区楚河汉街室内步行街1楼","image":"cloud://kk11.6b6b-kk11/heytea.png","remark":"多肉葡萄果肉超多，味道很浓郁嗷。"},
+    {"name":"奈雪的茶","address":"武昌区公正路武汉汉街万达广场1层1032+1033号商铺","image":"cloud://kk11.6b6b-kk11/naixue.jpg","remark":"老佛爷宝藏茶散发着迷人的光泽~颜值超高！"},
+    {"name":"乐乐茶","address":"武昌区沙湖大道万达广场1F1004","image":"cloud://kk11.6b6b-kk11/leletea.jpg","remark":"上海知名的网红茶饮终于开到武汉啦！！包装袋也超好看的。"},
+    {"name":"KOI","address":"武昌区中北路武汉中央文化区楚河汉街室内步行街3F层Q2-1号商铺","image":"cloud://kk11.6b6b-kk11/koi.jpg","remark":"伯爵奶茶中伯爵茶的清新与奶茶搭配的刚刚好！"}
   ]

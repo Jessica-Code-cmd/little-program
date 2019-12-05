@@ -1,6 +1,6 @@
 [
-    {"name":"酒拾烤肉","address":"武昌区友谊大道三角花园王家湾小区湖北大学地铁A口","image":"/static/images/bbq1.png","remark":"鱼丸外焦里嫩、酱油炒饭超香！"},
-    {"name":"三和记烤肉","address":"江汉区民生路185号","image":"/static/images/bbq2.jpg","remark":"牛肉鲜嫩多汁，和生菜更配嗷。"},
-    {"name":"炉边炭情*炭火烤肉","address":"武昌区楚河汉街第三街区万达广场2号门对面","image":"/static/images/bbq3.jpg","remark":"食材均选自优质渠道，放心吃。"},
-    {"name":"呷肆烤肉","address":"洪山区杨园南路徐东大街43附","image":"/static/images/bbq4.jpg","remark":"性价比高，服务态度好。"}
+    {"name":"酒拾烤肉","address":"武昌区友谊大道三角花园王家湾小区湖北大学地铁A口","image":"cloud://kk11.6b6b-kk11/bbq1.png","remark":"鱼丸外焦里嫩、酱油炒饭超香！"},
+    {"name":"三和记烤肉","address":"江汉区民生路185号","image":"cloud://kk11.6b6b-kk11/bbq2.jpg","remark":"牛肉鲜嫩多汁，和生菜更配嗷。"},
+    {"name":"炉边炭情*炭火烤肉","address":"武昌区楚河汉街第三街区万达广场2号门对面","image":"cloud://kk11.6b6b-kk11/bbq3.jpg","remark":"食材均选自优质渠道，放心吃。"},
+    {"name":"呷肆烤肉","address":"洪山区杨园南路徐东大街43附","image":"cloud://kk11.6b6b-kk11/bbq4.jpg","remark":"性价比高，服务态度好。"}
   ]
